@@ -1,8 +1,14 @@
-# React + Vite
+# Quiz App with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Build and Deploy to gh-pages](https://github.com/Halfpipe-SD/quiz/actions/workflows/frontend-build-and-deploy.yml/badge.svg)](https://github.com/Halfpipe-SD/quiz/actions/workflows/frontend-build-and-deploy.yml)
 
-Currently, two official plugins are available:
+## Development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository
+2. Install pnpm with `npm install -g pnpm`
+3. Run `pnpm i` to install the dependencies
+4. Run `pnpm dev` to start the development server
+
+## Deployment
+
+The app is deployed to GitHub Pages using GitHub Actions. The deployment script is located in `.github/workflows/frontend-build-and-deploy.yml`. The script builds the app and deploys it to the `gh-pages` branch.
