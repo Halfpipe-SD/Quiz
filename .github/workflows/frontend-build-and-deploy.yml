@@ -4,9 +4,7 @@ on:
   push:
     branches:
       - main
-  manual:
-    branches:
-      - main
+  workflow_dispatch:
 
 permissions:
   contents: write
